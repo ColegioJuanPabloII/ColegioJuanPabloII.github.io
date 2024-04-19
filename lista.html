@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+        <title>Colegio Juan Pablo II</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+        <!-- Font Awesome icons (free version)-->
+        <script
+            src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+            crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link
+            href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+            rel="stylesheet"
+            type="text/css"/>
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+            rel="stylesheet"
+            type="text/css"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet"/>
+        <link href="css/rodrigostilo.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+        <!--. . . . . . inicio de Menú (Nav Bar). . . . . . . . -->
+        <nav
+            class="navbar navbar-fixed-top navbar-expand-md border-bottom"
+            id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-3 py-3 py-lg-4" href="eventos.html">Cerrar sesión
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- encabezado-->
+        <header class="masthead encabezado">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <img src="assets/img/suzuki.png" alt="logo suzuki" class="logosuzuki">
+                            <img
+                                src="assets/img/escudo.png"
+                                alt="logotipo del Colegio"
+                                class="logoencabezado">
+                            <h1 class="titulo" style="color: white; font-family: Monotype Corsiva">Colegio Juan Pablo ll
+                            </h1>
+                            <h2 class="subheading" style="color: #2C286C; font-family: Monotype Corsiva">El colegio católico</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+
+        <!-- formulario-->
+        <body>
+            <div class="cuadro position-absolute h-100 d-inline-block" style=" top: 0" ></div>
+
+            <div class="formu vstack gap-3 container">
+                <div class="container text-center row">
+                    <h3>Lista de eventos</h3>
+                </div>
+
+                <button type="button" class="btn btn-link">
+                    <a href="agregar.html">
+                        <div class="text-center" style=" font-size: x-large; margin-left:530px;">Agregar evento
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-plus-circle"
+                                viewbox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                <path
+                                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                            </svg>
+                        </div>
+                    </a>
+                </button>
+
+                <div class="container position-relative px-4 px-lg-1">
+                    <div class="row gx-4 gx-lg-5 justify-content-center align-items-center">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <div id="imageList"></div>
+                            <table class="table">
+                                <thead class="table-secondary">
+
+                                    <tr class="bg-light ">
+                                        <th scope="col">Mensaje</th> 
+                                        <th scope="col">Fecha</th>
+                                        <th scope="col">Archivo</th>
+                                        <th scope="col">Eliminar</th>
+                                        <th scope="col">Editar</th>
+                                        
+                                    </tr>
+
+                                </thead>
+                                <tbody id="tabla" class="table-group-divider">
+                                    <tr class="bg-light">
+                                        <th scope="row">06/01/2024</th>
+                                        <td>Reunion de padres</td>
+                                        <td>
+                                            Adjunto
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!--   <<<<<< Modal >>>>>     -->
+              <div class="modal fade" id="MyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="editForm">
+                            <div class="mb-3">
+                                <label for="descripcion" class="form-label">Descripción</label>
+                                <input type="text" class="form-control" id="descripcion" name="descripcion">
+                            </div>
+                            <div class="mb-3">
+                                <label for="fecha" class="form-label">Fecha</label>
+                                <input type="date" class="form-control" id="fecha" name="fecha">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" id="guardar">Guardar cambios</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+<!-- Cargar Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+            <script src="lista.js"></script>
+        </body>

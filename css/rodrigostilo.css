@@ -1,0 +1,328 @@
+.uploaded-image{
+  width: 200px !important;
+}
+
+.encabezado{
+  z-index: 2;
+}
+#password{
+  margin-left: -34px;
+}
+#ctrsna{
+  margin-right: 60px;
+}
+#btn-login{
+margin-bottom: 15px;
+}
+/* talleres */
+
+.titulo{
+  color:#F5CD3C;
+  
+}
+.ovalo{
+  position: center;
+    background: radial-gradient(#F5CD3C, white);  
+    margin-top: 70px;
+    margin-bottom: 50px;
+  height: 50px;
+  width: 701px;
+  border-radius: 50%;
+  
+  }
+  /* tarjetas */
+  .txt-card{
+    font-family: Andale Mono, AndaleMono, monospace; 
+    font-size: 19px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400;
+     line-height: 15.6px;;
+    color: white;
+    margin-top: 13px;
+    font-weight: bold;
+  }
+.card-subtitle {
+  margin-top: 5px;
+ }
+  .sinfondo{
+  position: Absolute;
+  top:0;
+  width: 140px;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: -1;
+ }
+.card-body
+{
+  margin-left: 13px;
+}
+
+.imagenredonda{
+    width:150px;
+    height:150px;
+    border-radius:160px;
+    border:5px solid #666;
+    z-index: 2;
+    margin-bottom: 12px;
+    margin-top: 30px;
+ }
+
+ .card {
+background-color: #657bb4; 
+z-index: -2;
+border-radius:29px 0px 29px 0px;
+}
+  .card h6{
+    color: yellow;
+    font-weight: 10 !important;
+  line-height: 1.2;
+  z-index: 2;
+  font-size:large;
+ }
+
+   .flotante{
+    width: 59px;
+    position: absolute;
+    z-index:2;
+    top: -21px;
+    left: 254px;
+  }
+/*<---_-_-_--__--__--__--__-- plan escolar Estilos básicos -_-_--__--> */
+ .infopreescolar{
+  margin-top: -30px !important;
+}
+/* .infosecundaria{
+  margin-top: -30px !important;
+} */ 
+ /* .plan1{
+margin-left: 30px;
+margin-right: 20px;
+
+}   */
+.txtinformativo{
+margin-top: 9px;
+color: #657bb4;
+}
+ .txtbtn{
+color: rgb(76, 76, 215);
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+.imagensemicuadrada{
+  object-fit: cover;
+  width: 93%;
+  height: 189px;
+margin-bottom: 4px;
+border-radius:29px 0px 29px 0px;
+}
+#barra1 {
+  Left:17px;
+}
+.barraMarilla{
+  position: Absolute;
+	width: 40px;
+	height: 356px;
+	background-color: yellow;
+  Left:217px;
+  top: -1px;
+  border-bottom: 4px solid yellow;
+      z-index: -1;
+}
+
+  /* fondo tarjeta */
+  .plan-esc{
+background-color: #555f93;
+  } 
+
+  #imgPre{
+    width: 88%;
+    height: 189px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  #imgSec{
+    object-fit: cover;
+    width: 86%;
+    height: 189px;
+    margin-left: -23px;
+  }
+/*
+Final
+css plan escolar
+*/
+
+
+/* logotipo al costado de el titulo */
+.logoencabezado{
+    min-height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* logotipo suzuki */
+.logosuzuki{
+    /* min-height: 150px; */
+  width: 295px;
+  position: absolute;
+  top: 0px;
+  left: 920px;
+}
+.login{
+  width: 29px;
+  
+    filter:alpha(opacity=45);
+    opacity:.45;
+  }
+  .login:hover {
+    opacity: 100;
+  }
+
+
+
+.cell {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+/* Estilos para las imágenes */
+.cell img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el texto de lorem ipsum */
+.lorem {
+    margin-top: 10px;
+}
+
+/*-------------------------------- info escolar ------------------------------------- */
+
+  .infoinscripcion {
+    --bs-btn-padding-x: -0.rem;}
+     /* background:#e70b0b} */
+  /* .infoinscripcion:hover { background:#ffff9c } */
+  
+
+#barradots{
+  height: 29px;
+}
+.secciones {
+background-color: #657bb4;
+color: #fff;
+border-radius:9px;
+width: 240px;
+font-weight: 600;
+}
+
+#seccion1{
+  margin-top: 99px;
+}
+
+.imagendots{
+  background-image:url("../assets/img/barrapuntos.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size:contain;
+}
+
+.imagenesinfo {
+margin-left: 67px;
+margin-right: 24px;
+margin-bottom: 9px;
+margin-top: 9px;
+max-width: 66%;
+}
+
+.bg-divcustom {
+  background-color: #657bb4;
+}
+
+.cuadrado {
+  width: 150px;           /* Ancho de 150 píxeles */
+  height: 150px;          /* Alto de 150 píxeles */
+  background: #F5CD3C;        /* Fondo de color rojo */
+
+}
+/* texto a la derecha */
+#txt-card
+{
+  color: black;
+  margin-left: 73px;
+}
+#escolarcard {
+  
+  background-color: #F5CD3C; 
+  z-index: -2;
+  border-radius:0px;
+  }
+.logo_jp_sf{
+  background-image:url("/assets/img/ByN.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size:contain;
+}
+
+/* Login */
+.logeo{
+  background-color: #657bb4;
+  border-radius:20px 20px 20px 20px;
+  margin-top: 7dvh;
+}
+.ingresar{
+  border-radius:20px 20px 20px 20px;
+}
+/* formulario */
+
+.formu{
+  background-color: #ffff9c;
+  padding-bottom: 60px;
+}
+.agregar{
+  background-color: #ffff9c;
+  padding-bottom: 60px;
+  margin-left: 158px;
+  padding-right: 70px;
+  padding-left: 30px;
+}
+
+.table tr {
+  border-bottom: 4px solid #c8ccd1; /* Grosor y color del borde */
+}
+.cuadro {
+  background-color: #e9ebc8;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 0;
+  width: 133px;
+  opacity: 85%;
+  position: sticky;
+}
+.table-wrapper {
+  position: relative;
+}
+
+.icons-wrapper {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc; /* Color de fondo de los iconos */
+}
